@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fuel The Memes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>😂 Fuel The Memes</h1>
+<p class="subtitle">If the memes made you laugh, support the chaos 🚀</p>
+
+<div class="donation-grid">
+
+<div class="card">
+<h3>Bitcoin (BTC)</h3>
+<div class="address" id="btc">
+bc1qe2azx35a60jruq9l9utx9tr2y3fgw2rdmz5769
+</div>
+<button onclick="copyAddress('btc')">Copy Address</button>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=bc1qe2azx35a60jruq9l9utx9tr2y3fgw2rdmz5769">
+</div>
+
+<div class="card">
+<h3>USDT (ERC20)</h3>
+<div class="address" id="usdt">
+0x6acdb67B46eeE467Fc65Ef4e577559B6A7b66fB5
+</div>
+<button onclick="copyAddress('usdt')">Copy Address</button>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=0x6acdb67B46eeE467Fc65Ef4e577559B6A7b66fB5">
+</div>
+
+<div class="card">
+<h3>Solana (SOL)</h3>
+<div class="address" id="sol">
+62oAiD6McTo8fSALgKLjUJmbixq9iQnLbeccoEPK9xFf
+</div>
+<button onclick="copyAddress('sol')">Copy Address</button>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=62oAiD6McTo8fSALgKLjUJmbixq9iQnLbeccoEPK9xFf">
+</div>
+
+</div>
+
+<p class="minimum">Minimum suggested donation: $0.10</p>
+<p class="warning">⚠️ Send USDT using the Ethereum (ERC20) network only.</p>
+
+<footer>
+<p>Made for meme enjoyers of the internet.</p>
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
